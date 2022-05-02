@@ -1,0 +1,27 @@
+{
+	"name": "maximo-perez-villalba/framework-dao-json",
+	"description": "Extensión de framework-dao para persistencia de objetos en archivos con formato Json.",
+	"type": "library",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Máximo Perez Villalba",
+			"email": "maximo.villalba@gmail.com"
+		}
+	],
+	"version": "0.1.0",
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"framework\\dao\\json\\": "src/framework/dao/json/"
+		}
+	},
+	"autoload-dev": {},
+	"require": {
+		"php": ">=7.4",
+		"maximo-perez-villalba/framework-environment": ">=1",
+		"maximo-perez-villalba/framework-dao": ">=1.0.0"
+	},
+	"require-dev": {},
+	"prefer-stable": true
+}
