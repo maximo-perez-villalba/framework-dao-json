@@ -6,7 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
     'framework\\dao\\json\\' => array($baseDir . '/src/framework/dao/json'),
     'framework\\dao\\' => array($vendorDir . '/maximo-perez-villalba/framework-dao/src/framework/dao'),
     'framework\\' => array($vendorDir . '/maximo-perez-villalba/framework-environment/src/framework'),
@@ -14,10 +13,4 @@ return array(
     'codemax\\tool\\repository\\json\\' => array($vendorDir . '/codemax/tool-repository-json/src/codemax/tool/repository/json'),
     'codemax\\tool\\json\\' => array($vendorDir . '/codemax/tool-json/src/codemax/tool/json'),
     'codemax\\tool\\' => array($vendorDir . '/codemax/tool-path/src/codemax/tool', $vendorDir . '/codemax/tool-txt/src/codemax/tool'),
-    'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
-    'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
-    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src/Prophecy'),
-    'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
-    'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
-    'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
 );
