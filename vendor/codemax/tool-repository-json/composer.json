@@ -1,0 +1,33 @@
+{
+	"name": "codemax/tool-repository-json",
+	"description": "El proyecta implementa un repositorio orientado a objetos, que persiste objetos en formato json a través de una interfaz CRUD.",
+	"type": "library",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Máximo Perez Villalba",
+			"email": "maximo.villalba@gmail.com"
+		}
+	],
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"codemax\\tool\\repository\\json\\": "src/codemax/tool/repository/json/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"tests\\codemax\\tool\\repository\\json\\": "tests/src/tests/codemax/tool/repository/json/"
+		}
+	},
+	"require": {
+		"php": ">=7.4",
+		"maximo-perez-villalba/framework-environment": ">=1",
+		"codemax/tool-json": ">=1.0.0",
+		"codemax/tool-txt": ">=1.0.0",
+		"netresearch/jsonmapper": ">=4.0.0"
+	},
+	"require-dev": {},
+	"prefer-stable": true
+}

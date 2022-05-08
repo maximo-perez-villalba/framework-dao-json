@@ -9,18 +9,23 @@
 			"email": "maximo.villalba@gmail.com"
 		}
 	],
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"minimum-stability": "stable",
 	"autoload": {
 		"psr-4": {
 			"framework\\dao\\json\\": "src/framework/dao/json/"
 		}
 	},
-	"autoload-dev": {},
+	"autoload-dev": {
+		"psr-4": {
+			"demo\\json\\": "demo/src/demo/json/"
+		}
+	},
 	"require": {
 		"php": ">=7.4",
 		"maximo-perez-villalba/framework-environment": ">=1",
-		"maximo-perez-villalba/framework-dao": ">=1.0.0"
+		"maximo-perez-villalba/framework-dao": ">=1.0.0",
+		"codemax/tool-repository-json": ">=1.0.0"
 	},
 	"require-dev": {},
 	"prefer-stable": true

@@ -1,0 +1,239 @@
+{
+    "packages": [
+        {
+            "name": "codemax/tool-json",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/code.max/tool-json.git",
+                "reference": "280f69476854595d8e09bc3c5fcee396ae2f6eee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/code%2Emax%2Ftool-json/repository/archive.zip?sha=280f69476854595d8e09bc3c5fcee396ae2f6eee",
+                "reference": "280f69476854595d8e09bc3c5fcee396ae2f6eee",
+                "shasum": ""
+            },
+            "require": {
+                "codemax/tool-path": "1.*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "time": "2021-05-03T03:55:04+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "codemax\\tool\\json\\": "src/codemax/tool/json/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Máximo Perez Villalba",
+                    "email": "code.max@outlook.com.ar"
+                }
+            ],
+            "description": "PHP Persistencia en archivos de texto en formato Json.",
+            "support": {
+                "issues": "https://gitlab.com/api/v4/projects/26352790/issues"
+            },
+            "install-path": "../codemax/tool-json"
+        },
+        {
+            "name": "codemax/tool-path",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/code.max/tool-path.git",
+                "reference": "c97901ddd2b4e796a6baa915104eae299f37997a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/code%2Emax%2Ftool-path/repository/archive.zip?sha=c97901ddd2b4e796a6baa915104eae299f37997a",
+                "reference": "c97901ddd2b4e796a6baa915104eae299f37997a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "time": "2021-05-03T02:37:06+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "codemax\\tool\\": "src/codemax/tool/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Máximo Perez Villalba",
+                    "email": "code.max@outlook.com.ar"
+                }
+            ],
+            "description": "PHP - Herramientas para manipular rutas de archivos y directorios.",
+            "support": {
+                "issues": "https://gitlab.com/api/v4/projects/26352981/issues"
+            },
+            "install-path": "../codemax/tool-path"
+        },
+        {
+            "name": "codemax/tool-txt",
+            "version": "1.2.0",
+            "version_normalized": "1.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/code.max/tool-txt.git",
+                "reference": "95a616c39c268d71790ff54e607898b3de2c0fee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/code%2Emax%2Ftool-txt/repository/archive.zip?sha=95a616c39c268d71790ff54e607898b3de2c0fee",
+                "reference": "95a616c39c268d71790ff54e607898b3de2c0fee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "time": "2021-05-03T01:47:51+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "codemax\\tool\\": "src/codemax/tool/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Máximo Perez Villalba",
+                    "email": "newen.kimlu@gmail.com"
+                }
+            ],
+            "description": "La clase TXT agrupa herramientas para trabajar sobre texto.",
+            "support": {
+                "issues": "https://gitlab.com/api/v4/projects/26352101/issues"
+            },
+            "install-path": "../codemax/tool-txt"
+        },
+        {
+            "name": "maximo-perez-villalba/framework-environment",
+            "version": "1.1.2",
+            "version_normalized": "1.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maximo-perez-villalba/framework-environment.git",
+                "reference": "6b31a07ee3088851cab936f567566f80192cc62d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maximo-perez-villalba/framework-environment/zipball/6b31a07ee3088851cab936f567566f80192cc62d",
+                "reference": "6b31a07ee3088851cab936f567566f80192cc62d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2022-05-02T20:15:54+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "framework\\": "src/framework/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Máximo Perez Villalba",
+                    "email": "maximo.perez@davinci.edu.ar"
+                }
+            ],
+            "description": "El componente implementa una arquitectura liviana de control del ambiente de ejecución PHP, con fines pedagógicos.",
+            "support": {
+                "issues": "https://github.com/maximo-perez-villalba/framework-environment/issues",
+                "source": "https://github.com/maximo-perez-villalba/framework-environment/tree/v1.1.2"
+            },
+            "install-path": "../maximo-perez-villalba/framework-environment"
+        },
+        {
+            "name": "netresearch/jsonmapper",
+            "version": "v4.0.0",
+            "version_normalized": "4.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweiske/jsonmapper.git",
+                "reference": "8bbc021a8edb2e4a7ea2f8ad4fa9ec9dce2fcb8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweiske/jsonmapper/zipball/8bbc021a8edb2e4a7ea2f8ad4fa9ec9dce2fcb8d",
+                "reference": "8bbc021a8edb2e4a7ea2f8ad4fa9ec9dce2fcb8d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-spl": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~7.5 || ~8.0 || ~9.0",
+                "squizlabs/php_codesniffer": "~3.5"
+            },
+            "time": "2020-12-01T19:48:11+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "JsonMapper": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Weiske",
+                    "email": "cweiske@cweiske.de",
+                    "homepage": "http://github.com/cweiske/jsonmapper/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Map nested JSON structures onto PHP classes",
+            "support": {
+                "email": "cweiske@cweiske.de",
+                "issues": "https://github.com/cweiske/jsonmapper/issues",
+                "source": "https://github.com/cweiske/jsonmapper/tree/v4.0.0"
+            },
+            "install-path": "../netresearch/jsonmapper"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

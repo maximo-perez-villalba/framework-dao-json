@@ -1,0 +1,31 @@
+{
+	"name": "codemax/tool-txt",
+	"description": "La clase TXT agrupa herramientas para trabajar sobre texto.",
+	"type": "library",
+	"version": "1.2.0",
+	"minimum-stability": "stable",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Máximo Perez Villalba",
+			"email": "newen.kimlu@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"codemax\\tool\\": "src/codemax/tool/"
+		}
+	},
+	"autoload-dev":{
+		"psr-4": {
+			"tests\\codemax\\tool\\txt\\": "tests/codemax/tool/txt/"
+		}
+	},
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.4"
+	},
+	"prefer-stable": true
+}

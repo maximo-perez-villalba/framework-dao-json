@@ -1,0 +1,32 @@
+{
+	"name": "codemax/tool-json",
+	"description": "PHP Persistencia en archivos de texto en formato Json.",
+	"type": "library",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Máximo Perez Villalba",
+			"email": "code.max@outlook.com.ar"
+		}
+	],
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"codemax\\tool\\json\\": "src/codemax/tool/json/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"tests\\codemax\\tool\\json\\": "tests/codemax/tool/json/"
+		}
+	},
+	"require": {
+		"codemax/tool-path": "1.*",
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.4"
+	},
+	"prefer-stable": true
+}

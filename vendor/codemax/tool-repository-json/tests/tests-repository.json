@@ -1,0 +1,9 @@
+{
+	"map":
+	{
+		"tests\\codemax\\tool\\repository\\json\\Something@#Algo02":"{\"guid\":\"Algo02\",\"featureA\":\"Lorem ipsum motus caree...\",\"featureB\":{},\"featureC\":[4,5,6]}",
+		"tests\\codemax\\tool\\repository\\json\\Something@#Algo01":"{\"guid\":\"Algo01\",\"featureA\":\"Lorem ipsum Jactus de mare...\",\"featureB\":{},\"featureC\":[1,2,3]}",
+		"tests\\codemax\\tool\\repository\\json\\Something@#Algo03":"{\"guid\":\"Algo03\",\"featureA\":\"Lorem ipsum Sentire inanomus...\",\"featureB\":{},\"featureC\":[9,10,11]}",
+		"tests\\codemax\\tool\\repository\\json\\Something@#Algo04":"{\"guid\":\"Algo04\",\"featureA\":\"Carla no esta, Carla se fue...\",\"featureB\":{},\"featureC\":[\"I\",\"You\",11]}"
+	}
+}

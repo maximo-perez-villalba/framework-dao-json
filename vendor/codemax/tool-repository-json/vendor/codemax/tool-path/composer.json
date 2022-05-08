@@ -1,0 +1,31 @@
+{
+	"name": "codemax/tool-path",
+	"description": "PHP - Herramientas para manipular rutas de archivos y directorios.",
+	"type": "library",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Máximo Perez Villalba",
+			"email": "code.max@outlook.com.ar"
+		}
+	],
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"codemax\\tool\\": "src/codemax/tool/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"tests\\codemax\\tool\\path\\": "tests/codemax/tool/path/"
+		}
+	},
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.4"
+	},
+	"prefer-stable": true
+}
